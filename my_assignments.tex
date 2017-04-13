@@ -1,4 +1,4 @@
-\documentclass[10.5pt]{amsart}
+\documentclass[11pt]{amsart}
 \usepackage{amsfonts,amssymb,amsmath}
 \usepackage{xltxtra}
 \usepackage{unicode-math}
@@ -27,12 +27,12 @@ Bonfert-Taylor}}
 \maketitle\[\includegraphics[scale = 0.25]{wesleyan.png}\]
 \section{First Assignment}
 \textbf{1.} Graph the following four sets:\\
-$\bullet$ (A) $\dsp \{z\in\BBC| |z-3-2\mi|\leq 1\}$\\
-$\bullet$ (B) $\dsp \{z\in\BBC | \mathfrak{Im}(z) = 2\}$\\
-$\bullet$ (C) $\dsp \left\{z\in\BBC\setminus\{0\}|0<\arg{z}<\frac{\pi}{6}\right\}$\\
-$\bullet$ (D) $\dsp \left\{z\in\BBC| |z-1|<|z|\right\}$
+(A) $\dsp \left\{z\in\BBC\;\left|\; |z-3-2\mi|\leq 1\right.\right\}$\\
+(B) $\dsp \left\{z\in\BBC\;\left|\; \mathfrak{Im}(z) = 2\right.\right\}$\\
+(C) $\dsp\left\{z\in\BBC\setminus\{0\}\;\left|\;0<\arg{z}<\frac{\pi}{6}\right.\right\}$\\
+(D) $\dsp \left\{z\in\BBC\;\left|\; |z-1|<|z|\right.\right\}$
 \begin{center}
- \textbf{Solution}
+\textbf{Solution}
 \end{center}
 In the following figures the \textit{x-axis} is the \textbf{real} axis and the 
 \textit{y-axis} the \textbf{imaginary} one.
@@ -136,15 +136,13 @@ without the points of the vertical line $x=\frac{1}{2}$.}
 \end{figure}
 \end{center}
 \textbf{2.} Find and plot the 6th roots of unity. For this problem you need to submit both 
-a graph showing your 
-answer as well as the calculation that led you to this graph. 
+a graph showing your answer as well as the calculation that led you to this graph. 
 \begin{center}
- \textbf{Solution}
+\textbf{Solution}
 \end{center}
 $\dsp z^6=1\Rightarrow |z|^{6}\mathfrak{e}^{6\mi\theta}=1^{6}\mathfrak{e}^{0\cdot\mi}\Rightarrow 
 \begin{cases}|z|=1&\\6\theta=2k\pi\Rightarrow 
-\theta=\frac{k\pi}{3}&,k=0,1,2,3,4,5\end{cases}$, so the points we 
-seek are
+\theta=\frac{k\pi}{3}&,k=0,1,2,3,4,5\end{cases}$, so the points we seek are
 \[
 \left\{(1,0),\left(\cos\left(\frac{\pi}{3}\right),\sin\left(\frac{\pi}{3}\right)\right),
 \left(\cos\left(\frac{2\pi}{3}\right),\sin\left(\frac{2\pi}{3}\right)\right),
@@ -200,16 +198,17 @@ dotsize=3pt 0,linewidth=0.8pt,arrowsize=3pt 2,arrowinset=0.25}
 \end{pspicture*}
 \end{center}
 \section{Second Assignment}
-\textbf{1.} Find the image of the set $\dsp U = \left\{z\in\mathbb{C} \bigg|  \frac{-\pi}{2}\leq\mathfrak{Re}(z)\leq\frac{\pi}{2}\right\}$ 
+\textbf{1.} Find the image of the set $\dsp U = \left\{z\in\mathbb{C}\;
+\left|\;\frac{-\pi}{2}\leq\mathfrak{Re}(z)\leq\frac{\pi}{2}\right.\right\}$ 
 under the function $f(z) = \sin(z)$. To do so please answer the following questions:\\
 a. What is the image of the line segment $\dsp 
 L_{1}=\left(\frac{\pi}{2},\frac{\pi}{2}\right)$ (in the real axis) under $f$?\\
-b.    What is the image of the imaginary axis $\dsp L_{2}=\left\{\mi y |y \in 
-\mathbb{R}\right\}$ under $f$?\\
-c.    What is the image of the vertical line $L_{3}=\left\{-\frac{\pi}{2}+\mi y\bigg| 
-y\in\mathbb{R}\right\}$ under $f$?\\
-d.    What is the image of the vertical line $\dsp L_{4}=\left\{\frac{\pi}{2}+\mi y \bigg| 
-y\in\mathbb{R}\right\}$ under $f$?\\
+b.    What is the image of the imaginary axis $\dsp L_{2}=\left\{\mi y\; \left|\;y \in 
+\mathbb{R}\right.\right\}$ under $f$?\\
+c.    What is the image of the vertical line $L_{3}=\left\{-\frac{\pi}{2}+\mi y\;\left| \;
+y\in\mathbb{R}\right.\right\}$ under $f$?\\
+d.    What is the image of the vertical line $\dsp L_{4}=\left\{\frac{\pi}{2}+\mi y 
+\left| \;y\in\mathbb{R}\right.\right\}$ under $f$?\\
 e.    Given your above observations, what do you guess the image of the set $U$ is under 
 $f$?
 \begin{center}
@@ -220,34 +219,43 @@ Before we begin answering the questions we need to do some calculations.
 f(z) = \sin(z) = \sin(x+y \mi) = \sin(x)\cos(y\mi) + \sin(\mi y)\cos(x) = \sin(x)\cosh(y) 
 +\mi\cdot \cos(x)\sinh(y)\]
 so $u(x,y) = \sin(x)\cosh(y)$ and $v(x,y) = \cos(x)\sinh(y)$.\\
-a. $L_{1}$ is the line segment $\dsp \mathfrak{Re}\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$ in the z-plane, so for 
-$\dsp x\in\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$ and y = 0 we get $\dsp w(x,0)=\left<u(x,0),v(x,0)\right>=\left<\sin(x),0\right>$ 
-and for $\dsp x = \pm\frac{\pi}{2}$, $\dsp w\left(\pm\frac{\pi}{2},0\right) = \pm 1$, which means that under f, $L_{1}$ is mapped
+a. $L_{1}$ is the line segment $\dsp 
+\mathfrak{Re}\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$ in the \textit{z-plane}, so for 
+$\dsp x\in\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$ and $y=0$ we get $\dsp 
+w(x,0)=\left<u(x,0),v(x,0)\right>=\left<\sin(x),0\right>$ 
+and for $\dsp x = \pm\frac{\pi}{2}$, $\dsp w\left(\pm\frac{\pi}{2},0\right) = \pm 1$, $f$
+which means that under , $L_{1}$ is mapped
 into the line segment $\dsp \mathfrak{Re}(-1,1)$ in the \textit{w-plane}.
 \[\includegraphics[width = 0.6\linewidth]{1a.png}\]
 b. Following the same steps as in answer (a) we get,\[
 w(0,y) = \left<u(0,y),v(0,y)\right> = \left<0,\sinh(y)\right>
 \]
 and since the range of $\sinh$ is $\dsp (-\infty,+\infty)$ for $y\in\mathbb{R}$, we 
-deduce that f maps the $y\mi$ line or the 
-$\mathfrak{Im}(z)$ axis into the imaginary axis $\mathfrak(Im)(w)$ of the \textit{w-plane}.
+deduce that $f$ maps the $y\mi$ line or the 
+$\mathfrak{Im}(z)$ axis into the \textit{imaginary} axis $\mathfrak(Im)(w)$ of the 
+\textit{w-plane}.
 \[\includegraphics[width = 0.6\linewidth]{1b.png}\]
-c. Again for $\dsp x = -\frac{\pi}{2}$ we get $\dsp 
+c. For $\dsp x = -\frac{\pi}{2}$ we get $\dsp 
 w\left(-\frac{\pi}{2},y\right)=\left<-\cosh(y),0\right>$ and since the range of $\cosh$ 
 is 
-$[1,+\infty)$ for $y\in\mathbb{R}$, we deduce that f maps the line $\dsp y = -\frac{\pi}{2} + y \mi$ of the \textit{z-plane} into the line 
+$[1,+\infty)$ for $y\in\mathbb{R}$, we deduce that $f$ maps the line $\dsp y = 
+-\frac{\pi}{2} + y \mi$ of the \textit{z-plane} into the line 
 $\dsp \mathfrak{Re}(-\infty,-1]$ of the \textit{w-plane}, we can imagine that an invisible hand bends the two infinite branches of the 
 line $\dsp y = -\frac{\pi}{2}+y\mi$ regarding as the center of the infinite vertical line 
 the point $\dsp \left(-\frac{\pi}{2},0\right)$ 
-leftwards, until both branched become one with the real axis and then the same force moves the new line's edge horizontally to 
+leftwards, until both branched become one with the \textit{real axis} and then the same 
+force moves the new line's edge horizontally to 
 the point (-1,0). We will see the same process in the next question but in the opposite direction.
 \[\includegraphics[width = 0.6\linewidth]{1c.png}\]
-d. As in (c), $\dsp x = \frac{\pi}{2}$ and so $\dsp w\left(\frac{\pi}{2},y\right)= \left<\cosh(y),0\right>$, so f maps the line 
+d. As in (c), $\dsp x = \frac{\pi}{2}$ and so $\dsp w\left(\frac{\pi}{2},y\right)= 
+\left<\cosh(y),0\right>$, so $f$ maps the line 
 $\dsp y = \frac{\pi}{2} + y \mi$ of the \textit{z-plane} into the line $\dsp \mathfrak{Re}[1,+\infty]$ of the \textit{w-plane}.
 \[\includegraphics[width = 0.6\linewidth]{1d.png}\]
-e. It is clear that $\dsp U = \left\{ z \in \BBC\bigg|-\frac{\pi}{2}<\mathfrak{Re}(z)<\frac{\pi}{2}\right\}$ is mapped into the whole
+e. It is clear that $\dsp U = \left\{ z \in 
+\BBC\;\left|\;-\frac{\pi}{2}<\mathfrak{Re}(z)<\frac{\pi}{2}\right.\right\}$ is mapped 
+into the whole
 \textit{w-plane} slit along the rays $\mathfrak{Re}(-\infty,1]$ and $\mathfrak{Re}[1,+\infty)$ (white lines in the next figure excluding
-also from the w-plane the points (-1,0) and (1,0)).
+also from the \textit{w-plane} the points (-1,0) and (1,0)).
 \[\includegraphics[width = 0.6\linewidth]{1e.png}\]
 \textbf{2.} Let $u(x,y) = x^2 - y^2 -y$. Find a real-valued function $v(x,y)$ such that 
 $v(0,0)=1$ and together, $u$ and $v$ satisfy the 
@@ -285,27 +293,35 @@ so $a=0$, $b=1$ and $c=d$ and $\dsp \boxed{v(x,y)=2xy+x+c}\;\;(3)$.\\
 f. From (3) $\dsp v(0,0) = c \Leftrightarrow c = 1 $ for the function $v$ is $v(x,y) = 
 2xy+x+1$.
 \section{Third Assignment}
-\textbf{1.} Sketch the image under the map $f(z)=\textrm{Log}(z)$ of the open half annulus $\dsp A=\left\{z\in\BBC\bigg| 
-\mathfrak{e}^{-\frac{\pi}{4}}<|z|<\mathfrak{e}^{\frac{\pi}{4}},\mathfrak{Re}(z)>0\right\}$.\\\\
-Recall: $\textrm{Log}(z)$ denotes the \textit{principal branch} of logarithm, that is, 
-$\textrm{Log}(z)=\ln⁡|z|+\mi \textrm{Arg}(z)$, 
+\textbf{1.} Sketch the image under the map $f(z)=\textrm{Log}(z)$ of the open half annulus 
+$\dsp A=\left\{z\in\BBC\left| 
+\mathfrak{e}^{-\frac{\pi}{4}}<|z|<\mathfrak{e}^{\frac{\pi}{4}},\mathfrak{Re}
+(z)>0\right.\right\} $.\\Recall: $\textrm{Log}(z)$ denotes the \textit{principal branch} 
+of logarithm, that is, $\textrm{Log}(z)=\ln⁡|z|+\mi \textrm{Arg}(z)$, 
 where $\dsp -\pi<\textrm{Arg}(z)\leq \pi$ is the principal argument of $z$.\\
 The image you create (either by hand or using a computer graphing program) should contain two graphs: On one set of 
 coordinate axes, sketch the half annulus $A$, on a second set of axes sketch its image 
 under $f$ . Please highlight the following 
 parts of your graph:\\
-1. The set $\dsp \left\{z\in\BBC\bigg||z| =\mathfrak{e}^{-\frac{\pi}{4}}, \mathfrak{Re}(z)>0\right\}$ (this is a part of the boundary
+1. The set $\dsp \left\{z\in\BBC\;\left|\;|z| =\mathfrak{e}^{-\frac{\pi}{4}}, 
+\mathfrak{Re}(z)>0\right.\right\}$ (this is a part of the boundary
 of A) as well as the image of this boundary portion under $f$ in your second graph.\\
-2. The set $\dsp \left\{z\in\BBC\bigg||z| = \mathfrak{e}^{\frac{\pi}{4}},\mathfrak{Re}(z)>0\right\}$ (this is another part of the 
+2. The set $\dsp \left\{z\in\BBC\;\left|\;|z| 
+=\mathfrak{e}^{\frac{\pi}{4}},\mathfrak{Re}(z)>0\right.\right\}$ (this is another part of 
+the 
 boundary of $A$) as well as the image of this boundary portion under $f$ in your second 
 graph (use a different color for these sets 
 than you used in the first part if possible).\\
-3. The set $\left\{z \in \BBC \bigg|\mathfrak{e}^{-\frac{\pi}{4}}\leq\mathfrak{Im}(z)\leq\mathfrak{e}^{\frac{\pi}{4}},\mathfrak{Re}(z)=0
-\right\}$ (this is yet another part of the boundary of $A$) as well as the image of this 
+3. The set $\left\{z \in 
+\BBC\;\left|\;\mathfrak{e}^{-\frac{\pi}{4}}\leq\mathfrak{Im}(z)\leq\mathfrak{e}^{\frac{\pi
+} { 4 } }, \mathfrak{Re}(z)=0\right.\right\}$ (this is yet another part of the boundary 
+of $A$) as well as the image of this 
 boundary portion under $f$ in your second 
 graph (use a third color if possible).\\
-4. The set $\dsp \left\{z \in \BBC\bigg|-\mathfrak{e}^{\frac{\pi}{4}}\leq \mathfrak{Im}(z)\leq-\mathfrak{e}^{-\frac{\pi}{4}},
-\mathfrak{Re}(z) = 0\right\}$ (this is the fourth part of the boundary of $A$) as well 
+4. The set $\dsp \left\{z \in \BBC\;\left|\;-\mathfrak{e}^{\frac{\pi}{4}}\leq 
+\mathfrak{Im}(z)\leq-\mathfrak{e}^{-\frac{\pi}{4}},
+\mathfrak{Re}(z) = 0\right.\right\}$ (this is the fourth part of the boundary of $A$) as 
+well 
 as the image of this boundary portion under 
 $f$ in your second graph (use a fourth color if possible).\\
 5. The set $A$ (on your first graph) and its image $f(A)$ (on your second graph).
@@ -314,7 +330,9 @@ $f$ in your second graph (use a fourth color if possible).\\
 \end{center}
 First of all before we begin with the step by step solution we should always have in our mind that $\dsp\textrm{Log}(z)=\ln|z|+\mi 
 \textrm{Arg}(z), for -\pi<\textrm{Arg}(z)\leq \pi$.\\
-1. We are given the semicircle $\dsp C_{1}=\left\{z\in\BBC\bigg||z|=\mathfrak{e}^{-\frac{\pi}{4}}, \mathfrak{Re}(z)>0\right\}$ and we 
+1. We are given the semicircle $\dsp 
+C_{1}=\left\{z\in\BBC\;\left|\;|z|=\mathfrak{e}^{-\frac{\pi}{4}},\mathfrak{Re}
+(z)>0\right.\right\}$ and we 
 will find its image under $\dsp f(z)=\textrm{Log}(z)$. So for every $z\in C_{1}$we have 
 $\dsp \textrm{Arg}(z)\in\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$ and $\text{Log}(z)=\ln(e)-\frac{\pi}{2}+\mi\textrm{Arg}(z)$ so f maps $C_1$ 
 into the vertical line $z=-\frac{\pi}{4}+\mi\textrm{Arg}(z)$  of the \textit{w-plane} as seen in the next figure (red semicircle without 
@@ -322,7 +340,9 @@ the ending points).
 \begin{center}
 \includegraphics{2a.png}
 \end{center}
-2. We are given the semicircle $\dsp C_{2}=\left\{z\in\BBC\bigg||z|=\mathfrak{e}^{\frac{\pi}{4}}, \mathfrak{Re}(z)>0\right\}$ and 
+2. We are given the semicircle $\dsp 
+C_{2}=\left\{z\in\BBC\;\left|\;|z|=\mathfrak{e}^{\frac{\pi}{4}},\mathfrak{Re}
+(z)>0\right.\right\}$ and 
 following the same steps as in (1) we get \[\textrm{Log}(z)=\ln\left(\mathfrak{e}^{\frac{\pi}{4}}\right)+\mi\textrm{Arg}(z)=
 \frac{\pi}{4}+\mi\textrm{Arg}(z)\] with $\textrm{Arg}(z)\in\left(-\frac{\pi}{2},\frac{\pi}{2}\right)$. So the blue semicircle $C_2$ without its 
 ending points is mapped into the vertical blue line $\dsp z=\frac{\pi}{4}+\mi\textrm{Arg}(z)$ of the \textit{w-plane} without its ending 
@@ -330,8 +350,11 @@ points as seen in the next figure.
 \begin{center}
 \includegraphics{2b.png}
 \end{center}
-3. The set $\dsp C_3=\left\{z\in\BBC\bigg|\mathfrak{e}^{-\frac{\pi}{4}}\leq\mathfrak{Im}(z)\leq\mathfrak{e}^{\frac{\pi}{4}}, \
-\mathfrak{Re}(z)=0\right\}$ is the vertical line segment which lies in the imaginary axis of the z-plane with ending points (included)
+3. The set $\dsp
+C_3=\left\{z\in\BBC\;\left|\;\mathfrak{e}^{-\frac{\pi}{4}}\leq\mathfrak{Im}
+(z)\leq\mathfrak { e } ^ {\frac{\pi}{4}}, \
+\mathfrak{Re}(z)=0\right.\right\}$ is the vertical line segment which lies in the 
+imaginary axis of the \textit{z-plane} with ending points (included)
 $\dsp z=\mathfrak{e}^{-\frac{\pi}{4}}\mi$ and $z=\mathfrak{e}^{\frac{\pi}{4}}\mi$. In this case $\dsp\textrm{Arg}(z)=\frac{\pi}{2}$ and 
 $\dsp\mathfrak{Re}(z)=0$, so \[\textrm{Log}(z)=\ln|y\cdot \mi|+\frac{\pi}{2}\mi=\ln⁡(y)+\mi\frac{\pi}{2}\] which means that that the 
 closed line segment $C_3$ is mapped under $f$ into the closed horizontal line line 
@@ -339,16 +362,20 @@ segment $\dsp t+\mi\frac{\pi}{2}$ with
 $t\in\left[-\frac{\pi}{4},\frac{\pi}{2}\right]$. In the next figure we see the orange closed vertical line segment $C_3$ mapped into the 
 orange closed horizontal line segment of the \textit{w-plane}.
 \begin{center}\includegraphics{2c.png}\end{center}
-4.  The set $C_4=\left\{z\in\BBC\bigg|-\mathfrak{e}^{\frac{\pi}{4}}\leq\mathfrak{Im}(z)\leq-\mathfrak{e}^{-\frac{\pi}{4}}, \mathfrak{Re}(z)=0
-\right\}$ is the vertical line segment which lies in the imaginary axis of the z-plane with ending points (included) 
+4.  The set 
+$C_4=\left\{z\in\BBC\;\left|\;-\mathfrak{e}^{\frac{\pi}{4}}\leq\mathfrak{Im}
+(z)\leq-\mathfrak { e }^{-\frac{\pi}{4}}, \mathfrak{Re}(z)=0
+\right.\right\}$ is the vertical line segment which lies in the imaginary axis of the 
+\textit{z-plane} with ending points (included) 
 $\dsp z=-\mathfrak{e}^{-\frac{\pi}{4}}\mi$ and $\dsp z=-\mathfrak{e}^{\frac{\pi}{4}}\mi$. In this case $\dsp\textrm{Arg}(z)=-\frac{\pi}{2}$ 
 and $\dsp\mathfrak{Re}(z)=0$, so \[\textrm{Log}(z)=\ln|y\cdot \mi|−\frac{\pi}{2}\mi=\ln⁡(y)−\mi\frac{\pi}{2}\]
-which means that that the closed line segment $C_4$ is mapped under f into the closed horizontal line line segment 
+which means that that the closed line segment $C_4$ is mapped under $f$ into the closed 
+horizontal line line segment 
 $\dsp t−\mi\frac{\pi}{2}$ with $t\in\left[-\frac{\pi}{4},\frac{\pi}{4}\right]$. In the next figure we see the green closed vertical line 
 segment $C_4$ mapped into the green closed horizontal line segment of the \textit{w-plane}.
 \begin{center}\includegraphics{2d.png}\end{center}
 5. $\dsp A=\left\{z\in\BBC\left|\mathfrak{e}^{-\frac{\pi}{4}}<|z|<\mathfrak{e}^{\frac{\pi}{4}\mi},\mathfrak{Re}(z)>0\right.\right\}$ 
-under f is shown in the next figure.
+under $f$ is shown in the next figure.
 \begin{center}\includegraphics{2e.png}\end{center}
 
 \definecolor{tcA}{rgb}{1,1,1}
@@ -363,7 +390,8 @@ under f is shown in the next figure.
 \textcolor{tcC}{O} & point not included
 \end{tabular}
 \end{center}
-\textbf{2.} Let $f(z)=\sin(⁡z)$ and consider the domain $\dsp D=\left\{z\in\BBC\bigg| 0<\mathfrak{Re}(z)<\pi, 0<\mathfrak{Im}(z)<1\right\}$ 
+\textbf{2.} Let $f(z)=\sin(⁡z)$ and consider the domain $\dsp D=\left\{z\in\BBC\;\left| \;
+0<\mathfrak{Re}(z)<\pi, 0<\mathfrak{Im}(z)<1\right.\right\}$ 
 (an open rectangle). Find the maximum of $\dsp\left|f(z)\right|$ on $\dsp\overline{D}=D\bigcup\partial D$ as well as the z-value(s) at 
 which $\dsp |f|$ attains this maximum value.
 \begin{center}
@@ -415,9 +443,10 @@ $\dsp C_3: \sin⁡(x+y\mi)=\sin⁡(x)\cosh⁡(y)+\mi\cos⁡(x)\sinh⁡(y)$, so
 
 $\dsp C_4: \max_{z\in C_{4}}\left|\sin(z)\right|=\max_{t\in\left[0,1\right]}\left|\sin(t\cdot \mi )\right|=\max_{t\in\left[0,1\right]}\left|\mi\cdot \sinh(t )\right|=\sinh(1)$, attained at $\dsp z=\mi$.
 
-So summing up the above we get $\color{red}{\max_{z\in \overline{D}}\left|f(z)\right|=\left|f\left(\frac{\pi}{2}+\mi\right)
-\right|=\cosh(1)}$, which means that the maximum modulus of $f$ is $\dsp\cosh(1)$  
-attained at $\dsp z = \frac{\pi}{2}+\mi$.
+So summing up the above we get $\dsp\max_{z\in 
+\overline{D}}\left|f(z)\right|=\left|f\left(\frac{\pi}{2}+\mi\right)
+\right|=\cosh(1)$, which means that the \textbf{maximum} modulus of $f$ is 
+$\dsp\cosh(1)$ attained at $\dsp z = \frac{\pi}{2}+\mi$.
 
 
 $\dagger$ Recall that $\dsp\sinh⁡(z) =\frac{\mathfrak{e}^{z}-\mathfrak{e}^{-z}}{2}$ and $\dsp \cosh(z)=\frac{\mathfrak{e}^{z} + 
